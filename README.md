@@ -1,31 +1,35 @@
 # StayNest
 StayNest is a full-stack web application that allows users to discover, create, and review travel listings. Built with Node.js,Express.js, and mongoDB. it features user authentication, CRUD operations, and a responsive UI.
-⭐Features
 
-🔐 Authentication & User Management
-   * User Registration & Login - Secure password authentication using Passport.js
-   * Password Security - Encrypted password storage with Passport-local-mongoose
-   * Flash Notifications - Real-time feedback with custom slide-in notifications
+## ✨ Features
 
-🏡 Property Listings
-   *Create Listings - Upload property details with high-resolution images via Cloudinary
-   *Edit Listings - Modify existing property information and details
-   *Delete Listings - Remove properties with owner verification
-   *Property Categories - 8 diverse categories:
-  🔥 Trending	🛏️ Rooms	🏙️ Iconic Cities
-  ⛰️ Mountains	🏰 Castles	🏊 Amazing Pools
-  ⛺ Camping	   🐄 Farms
-   *Rich Property Details - Title, description, location, price, images, and geographic coordinates
+### 🔐 Authentication & User Management
+- **User Registration & Login** - Secure password authentication using Passport.js
+- **Password Security** - Encrypted password storage with Passport-local-mongoose
+- **Flash Notifications** - Real-time feedback with custom slide-in notifications
 
-🔍 Search & Filtering
-   *Location Search - Find properties by city, country, or region (case-insensitive)
-   *Category Filtering - Filter by property types with visual icons
+### 🏡 Property Listings
+- **Create Listings** - Upload property details with high-resolution images via Cloudinary
+- **Edit Listings** - Modify existing property information and details
+- **Delete Listings** - Remove properties with owner verification
+- **Property Categories** - 8 diverse categories:
+   | | | |
+  |---|---|---|
+  | 🔥 Trending | 🛏️ Rooms | 🏙️ Iconic Cities |
+  | ⛰️ Mountains | 🏰 Castles | 🏊 Amazing Pools |
+  | ⛺ Camping | 🐄 Farms |
+-**Rich Property Details** - Title, description, location, price, images, and geographic coordinates
+### 🔍 Search & Filtering
+- **Location Search** - Find properties by city, country, or region (case-insensitive)
+- **Category Filtering** - Filter by property types with visual icons
+- **Explore Button** - Reset category filters and show all listings
 
-⭐ Reviews & Ratings
-   *User Reviews - Authenticated users can leave detailed comments
-   *Rating System - Comprehensive 1-5 star rating functionality with visual stars
-   *Review Management - Delete your own reviews from profile page
-   *Profile Integration - All user reviews displayed on profile page
+### ⭐ Reviews & Ratings
+- **User Reviews** - Authenticated users can leave detailed comments
+- **Rating System** - Comprehensive 1-5 star rating functionality with visual stars
+- **Review Management** - Delete your own reviews from profile page
+- **Profile Integration** - All user reviews displayed on profile page
+
 
 📁 Project Structure
 ```StayNest/
@@ -62,25 +66,30 @@ StayNest is a full-stack web application that allows users to discover, create, 
 ├── cloudConfig.js          # Cloudinary configuration
 └── package.json            # Dependencies
 ```
-📖 Usage
-For Guests
-    *Browse Properties - Visit homepage to explore all available listings
-    *Search & Filter - Use location search and category filters to find properties
-    *View Details - Click on any listing to see full information, reviews
-    *Sign Up - Create an account to access booking
-For Registered Users
-    *Login - Access your account with username and password
-    *Search & Filter - Use location search and category filters to find properties
-    *Leave Reviews - Share your experience with ratings and comments
-    *Logout - Securely exit when done
-For Hosts
-    *Create Account - Sign up to become a host
-    *Add Listings - Click "Become a host" to add your property
-    *Property Details - Fill in title, description, location, price, and category
-    *Upload Images - Add high-quality photos of your property via Cloudinary
-    *Manage Properties - Edit or delete your listings as needed
-    *Monitor Reviews - Read feedback from guests
+## 📖 Usage
 
+### For Guests
+- **Browse Properties** - Visit homepage to explore all available listings
+- **Search & Filter** - Use location search and category filters to find properties
+- **View Details** - Click on any listing to see full information and reviews
+- **Sign Up** - Create an account to access booking and wishlist features
 
-👨‍💻 Author
-Biswarupa Baral
+### For Registered Users
+- **Login** - Access your account with username and password
+- **Leave Reviews** - Share your experience with ratings and comments
+- **Search & Filter** - Use location search and category filters to find properties
+- **Manage Profile** - View your reviews and profile information
+- **Logout** - Securely exit when done
+
+### For Hosts
+- **Create Account** - Sign up to become a host
+-  **Add Listings** - Click "Become a host" to add your property
+- **Property Details** - Fill in title, description, location, price, and category
+- **Upload Images** - Add high-quality photos of your property via Cloudinary
+- **Publish Listing** - Make your property available for bookings
+- **Manage Properties** - Edit or delete your listings as needed
+
+## 👨‍💻 Author
+
+**Biswarupa Baral**
+
