@@ -28,7 +28,7 @@ StayNest is a full-stack web application that allows users to discover, create, 
    *Profile Integration - All user reviews displayed on profile page
 
 📁 Project Structure
-StayNest/
+```StayNest/
 ├── Models/                 # Database schemas
 │   ├── listing.js          # Property listing schema
 │   ├── review.js           # Review & rating schema
@@ -61,7 +61,7 @@ StayNest/
 ├── schema.js               # JOI validation schemas
 ├── cloudConfig.js          # Cloudinary configuration
 └── package.json            # Dependencies
-
+```
 📖 Usage
 For Guests
     *Browse Properties - Visit homepage to explore all available listings
