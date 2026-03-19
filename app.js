@@ -49,6 +49,10 @@ const store =MongoStore.create({
   touchAfter:24*3600,
 });
 
+app.get("/",(req,res)=>{
+  res.redirect("/listings");
+});
+
 store.on("error",()=>{
   console.log("ERROR in MONGO SESSSION STORE",err);
 });
